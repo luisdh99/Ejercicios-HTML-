@@ -1,0 +1,28 @@
+h1{font-size: 50px;
+    border: 10px solid salmon;
+color: aliceblue;
+text-align: center;}
+body{background-color: rgb(84, 198, 49);}
+p{border: 1px solid black;
+text-decoration: dotted
+teal;
+text-align: right;}
+h2{color: brown;
+text-transform: capitalize;
+text-decoration-color: blue;
+text-size-adjust: 100px;}
+img{width: 400px;height: 300px;
+margin-left: 400px;}
+
+:root{
+    --bg-color: #CD5C08;
+    --container-bg-color: #FFF5E4;
+    --text-colorL: #C1D8C3;
+    --item-bg-color: #6A9C89;
+    background-color: var(--text-colorL);
+color: var(--bg-color);
+width: 100vw;
+height: 500vh;
+margin: 0;
+
+}

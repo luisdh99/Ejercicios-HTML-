@@ -1,0 +1,66 @@
+<!--Desarrolla un pequeño sitio web donde hables
+sobre tu artista/banda musical favorita, este sitio
+debe contener lo siguiente:
+Nombre de la banda
+• Imagen de la banda
+• Biografía de la banda
+• Lista ordenada de tus 3 álbumes favoritos de la banda, dentro de
+cada álbum, anidar una lista desordenada con tus 3 canciones
+favoritas de ese álbum.
+• Enlaces relacionados a la banda (foros, platafo-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi sitio web de la banda</title>
+    </head>
+    <body>
+        <h1>Led Zeppelin</h1>
+
+        <div class="img"><p><img src="./imagenes/ledzepellin.webp" width="250px" height="250px"  alt="Imagenlz"></p></div>
+    </div>
+    
+        <h2>Biografía de la banda</h2>
+    <hr>
+    <p id="fondo1">Led Zeppelin were an English rock band formed in London in 1968. 
+    The band comprised Robert Plant (vocals), Jimmy Page (guitar), John Paul Jones (bass and keyboards) and John Bonham (drums).
+    With a heavy, guitar-driven sound, Led Zeppelin drew from influences including blues and folk music, and are cited as a progenitor of hard rock and heavy metal.
+    They significantly influenced the music industry, particularly the development of album-oriented rock (AOR) and stadium rock.</p>
+   
+    <h2>Mis álbumes favoritos</h2>
+    <ol>
+        <li><strong>Led Zeppelin I</strong></li>
+        <ul>
+            <li>You Shook Me</li>
+            <li>Dazed And Confused</li>
+            <li>Babe Im Gonna Leave You</li>
+        </ul>
+        <li>led Zeppelin II</li>
+        <ul>
+            <li>Heartbreaker</li>
+            <li>Whole Lotta Love</li>
+            <li>Ramble On</li>
+        </ul>
+        <li>Physical Graffitti</li>
+        <ul>
+            <li>In my time of Dying</li>
+            <li>Kashmir</li>
+            <li>Ten Years Gone</li>
+        </ul>
+    </ol>
+    <h2>Enlaces relacionados a la banda:</h2>
+    <ul>
+        <li><a href="https://www.ledzeppelin.com/?frontpage=true&"target="_blank">Pagina oficial</li>
+        <li><a href="https://x.com/ledzeppelin?lang=en"target="_blank">X</li>
+        <li><a href="https://open.spotify.com/intl-es/artist/36QJpDe2go2KgaRleHCDTp"target="_blank">spotify</li>
+    </ul>
+<hr>
+
+<audio controls> 
+    <source src="./audio/lz.mp3" type="audio/mpeg">
+</audio>
+    
+    </body>
+    </html>
